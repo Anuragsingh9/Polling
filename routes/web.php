@@ -35,6 +35,9 @@ Route::get('/candidate', function(){
 
 Route::post('/storevote', 'PollController@store');
 Route::get('/showvote', ['as'=>'showvote','uses'=>'PollController@showresult']);
+Route::get('/sendmail', 'mailController@send');
+// Route::get('/chart', 'ChartController@index');
+Route::get('charts', 'ChartController@index')->name('chart.index');
 
 
 

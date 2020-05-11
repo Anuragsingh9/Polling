@@ -19,11 +19,12 @@
        }
        input{
         background-color:rgb(225, 239, 245);
+        text-align: center;
        }
     </style>
 </head>
 <body>
-    <div class="col-sm-6 ">
+    <div class="col-sm-9 ">
         @if(count($errors))
 			<div class="alert alert-danger">
 				<strong>Whoops!</strong> Please select atleast one of the option.
@@ -42,7 +43,7 @@
            @csrf 
             
                 {{-- <label for="inputlg">input-lg</label> --}}
-                <input class="form-control input-lg" id="inputlg" type="text" placeholder="By how many days should  the Lockdown be increased" disabled>
+                <input class="form-control input-lg" id="inputlg" type="text" placeholder="By how many days should  the Lockdown be increased?" disabled>
                 <p>Please select date:</p>
                 <input type="radio" id="date1" name="date" value="30">
                 <label for="age1">01 - 30 Days</label><br>

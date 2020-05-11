@@ -27,9 +27,10 @@
         <td>{{$wordCount1}}</td>
         <td>{{$wordCount2}}</td>
       </tr>
-     
     </tbody>
   </table>
+  <h2 style="color:rgb(71, 204, 71); text-align:center">Thank You For Voting..</h2>
+    <button class="btn btn-info"><a href="/sendmail">Get Result on Mail</a></button>
 </div>
 
 </body>

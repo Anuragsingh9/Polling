@@ -38,6 +38,7 @@ class PollController extends Controller
         echo "Total Votes for 60 days ==>". $wordCount2."<br>";
 
         return view('auth.votes' , compact(['count', 'wordCount1', 'wordCount2']));
+        
 
     }
 
